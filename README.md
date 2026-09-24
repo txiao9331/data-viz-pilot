@@ -50,8 +50,17 @@ Daily granularity; `sleep_capped=1` marks days truncated at 960 min (bad-merge /
 
 ## Demo recordings
 
-- [`demo_person.mp4`](media/demo_person.mp4) — personal view: the abstract fluid evolving day by day, chart mode, and the post-viewing questionnaire flow.
-- [`demo_public_pool.mp4`](media/demo_public_pool.mp4) — public pool simulation: the merged fluid, the R-key toggle to the layered researcher view, and the space-bar probe that temporarily removes "my" layer.
+**Personal view** — the abstract fluid evolving day by day, chart mode, and the post-viewing questionnaire flow:
+
+<video src="https://cdn.jsdelivr.net/gh/txiao9331/data-viz-pilot@main/media/demo_person.mp4" controls width="640"></video>
+
+([repo file](media/demo_person.mp4) · [via Pages](https://txiao9331.github.io/data-viz-pilot/media/demo_person.mp4))
+
+**Public pool simulation** — the merged fluid, the R-key toggle to the layered researcher view, and the space-bar probe that temporarily removes "my" layer:
+
+<video src="https://cdn.jsdelivr.net/gh/txiao9331/data-viz-pilot@main/media/demo_public_pool.mp4" controls width="640"></video>
+
+([repo file](media/demo_public_pool.mp4) · [via Pages](https://txiao9331.github.io/data-viz-pilot/media/demo_public_pool.mp4))
 
 ## Privacy by design
 
