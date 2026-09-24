@@ -1,0 +1,35 @@
+# ============================================================
+# PERSONAL DATA — never commit
+# ============================================================
+
+# Raw Huawei Health export (contains identifying health records, ~2 GB)
+HUAWEI_HEALTH_*/
+
+# Derived daily CSVs built from personal records
+data/*.csv
+!data/.gitkeep
+viz/data/huawei_daily.csv
+viz/data/huawei_daily_full.csv
+
+# Study session logs (participant research data)
+sessions/*
+!sessions/.gitkeep
+
+# Working docs (research write-ups, decks, media — local only)
+docs/
+00_Vision与范围.md
+
+# ============================================================
+# Temp / build artifacts
+# ============================================================
+
+# Office lock files
+~$*
+# Python
+__pycache__/
+*.pyc
+# OS
+.DS_Store
+Thumbs.db
+# Headless test screenshots
+viz/_t_*.png

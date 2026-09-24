@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title data-i18n="title">Data-Viz Pilot · 身体数据可视化</title>
+<style>
+  body { background:#0c0e12; color:#e8e8e8; font-family: system-ui, sans-serif; margin: 20px auto; max-width: 1060px; padding: 0 16px; line-height: 1.6; }
+  h1 { font-size: 20px; } h2 { font-size: 17px; margin-top: 22px; } h3 { font-size: 15px; margin-bottom: 4px; }
+  button { margin-right: 8px; padding: 8px 16px; font-size: 14px; cursor: pointer; }
+  .header { display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #2a2f3a; padding-bottom:10px; margin-bottom:16px; }
+  .header h1 { margin:0; }
+  #lang-btn { min-width:44px; }
+  #step-indicator { color:#7a8291; font-size:13px; margin: 4px 0 14px; }
+  .card { background:#14171d; border:1px solid #232833; border-radius:10px; padding: 18px 22px; margin-bottom: 16px; }
+  .consent-body p { margin: 6px 0; white-space: pre-line; }
+  label.check { display:block; margin-top:16px; font-size:15px; }
+  .q { margin: 18px 0; }
+  .q p { margin-bottom: 8px; font-weight: 600; }
+  .likert { display:flex; gap:14px; align-items:center; }
+  .likert label { display:flex; flex-direction:column; align-items:center; font-size:13px; cursor:pointer; }
+  .likert-ends { display:flex; flex-direction:column; font-size:12px; color:#8a92a1; margin-left:6px; }
+  .opts { display:flex; flex-wrap:wrap; gap:10px; }
+  .opt { display:flex; align-items:center; gap:6px; background:#1b1f27; border:1px solid #2a2f3a; border-radius:8px; padding:6px 12px; cursor:pointer; }
+  .opt:has(input:checked) { border-color:#7fc8a9; background:#18251f; }
+  textarea, .inline-text, input[type=text] { background:#1b1f27; color:#e8e8e8; border:1px solid #2a2f3a; border-radius:8px; padding:8px 10px; font-size:14px; width:100%; box-sizing:border-box; }
+  .inline-text { width: auto; min-width: 160px; }
+  textarea { margin-top:8px; resize: vertical; }
+  .caution { color:#c9a227; font-size:13px; }
+  .actions { margin-top: 22px; }
+  #view-bar { display:flex; gap:10px; align-items:center; margin: 12px 0; flex-wrap: wrap; }
+  #participant-id { color:#7fc8a9; font-weight:700; }
+  #hint { color:#888; font-size:13px; margin-top:8px; }
+  #demo-bar { display:none; margin-bottom:12px; }
+  #demo-bar button.active { outline: 2px solid #7fc8a9; }
+  #pool-probe-hint { color:#8a92a1; font-size:13px; margin-left:10px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1 data-i18n="title">Data-Viz Pilot · 身体数据可视化</h1>
+  <button id="lang-btn">EN</button>
+</div>
+<div id="step-indicator"></div>
+
+<div id="wizard">
+  <!-- 第 1 步：知情同意 -->
+  <section id="step-consent" style="display:none">
+    <div class="card consent-body">
+      <h2 data-i18n="consent.title">知情同意书</h2>
+      <p data-i18n="consent.p1"></p>
+      <h3 data-i18n="consent.h1"></h3><p data-i18n="consent.p2"></p>
+      <h3 data-i18n="consent.h2"></h3><p data-i18n="consent.p3"></p>
+      <h3 data-i18n="consent.h3"></h3><p data-i18n="consent.p4"></p>
+      <h3 data-i18n="consent.h4"></h3><p data-i18n="consent.p5"></p>
+      <label class="check"><input type="checkbox" id="consent-check"> <span data-i18n="consent.check"></span></label>
+    </div>
+    <div class="actions"><button id="btn-consent-next" data-i18n="next">继续</button></div>
+  </section>
+
+  <!-- 第 2 步：观看前问卷 -->
+  <section id="step-pre" style="display:none">
+    <div class="card">
+      <h2 data-i18n="pre.title">观看前问卷</h2>
+      <div id="pre-questions"></div>
+    </div>
+    <div class="actions"><button id="btn-pre-next" data-i18n="next">继续</button></div>
+  </section>
+
+  <!-- 第 3 步：观看 -->
+  <section id="step-viewing" style="display:none">
+    <div id="view-bar">
+      <button id="btn-mode-abstract" data-i18n="view.abstract">抽象模式</button>
+      <button id="btn-mode-chart" data-i18n="view.chart">图表模式</button>
+      <span><span data-i18n="view.id">你的编号</span>：<span id="participant-id"></span></span>
+    </div>
+    <div class="actions"><button id="btn-view-done" data-i18n="view.done">我看完两种模式了，去后测问卷</button></div>
+  </section>
+
+  <!-- 第 4 步：观看后问卷 -->
+  <section id="step-post" style="display:none">
+    <div class="card">
+      <h2 data-i18n="post.title">观看后问卷</h2>
+      <p class="caution" data-i18n="open.caution"></p>
+      <div id="post-questions"></div>
+    </div>
+    <div class="actions"><button id="btn-post-done" data-i18n="post.done">完成，导出记录</button></div>
+  </section>
+
+  <!-- 完成 -->
+  <section id="step-done" style="display:none">
+    <div class="card">
+      <h2 data-i18n="done.title">完成</h2>
+      <p data-i18n="done.hint"></p>
+      <div class="actions">
+        <button id="btn-download-again" data-i18n="done.download">下载记录 JSON</button>
+        <button id="btn-restart" data-i18n="done.restart">重新开始（新参与者）</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- 演示模式（?mode= 直达时显示），放在画布上方便于操作 -->
+<div id="demo-bar" style="display:none">
+  <span id="demo-modes">
+    <button onclick="window.setMode('abstract')" data-i18n="view.abstract">抽象模式</button>
+    <button onclick="window.setMode('chart')" data-i18n="view.chart">图表模式</button>
+  </span>
+  <span id="demo-pool" style="display:none">
+    <button id="btn-pool-public" onclick="window.setPoolView('public')" data-i18n="pool.viewPublic">公共视图</button>
+    <button id="btn-pool-layers" onclick="window.setPoolView('layers')" data-i18n="pool.viewLayers">研究者视图</button>
+    <span id="pool-probe-hint" data-i18n="pool.probeHint"></span>
+  </span>
+</div>
+
+<!-- 画布区：向导第 3 步与演示模式共用 -->
+<div id="stage" style="display:none">
+  <div id="canvas-holder"></div>
+  <p id="hint" data-i18n="view.hint"></p>
+</div>
+
+<script src="lib/p5.min.js"></script>
+<script src="sketch.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
