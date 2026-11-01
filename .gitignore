@@ -11,25 +11,50 @@ data/*.csv
 viz/data/huawei_daily.csv
 viz/data/huawei_daily_full.csv
 
+# Real monthly summaries used by the 3D demo; keep the synthetic example tracked
+public-pool-demo/src/body-data.js
+
 # Study session logs (participant research data)
 sessions/*
 !sessions/.gitkeep
 
-# Working docs (research write-ups, decks, media — local only)
-docs/
+# Private research documents at the repository root (other docs/ folders remain trackable)
+/docs/
 00_Vision与范围.md
 
 # ============================================================
-# Temp / build artifacts
+# LOCAL WORKING STATE
 # ============================================================
 
-# Office lock files
+# Client-managed PPT working copies and Edit3D editor state
+working files/
+public-pool-demo/data/edit3d.state.json
+
+# ============================================================
+# TEMP / BUILD ARTIFACTS
+# ============================================================
+
+# JavaScript dependencies and builds
+node_modules/
+dist/
+*.log
+
+# Regenerable slide-validation renders
+portfolio-concept/screenshots/english-ppt/
+
+# Office lock files and surgical-edit backups
 ~$*
+.*.before.pptx
+.*.pptx.ops.json
+tmp*.pptx
+
 # Python
 __pycache__/
 *.pyc
+
 # OS
 .DS_Store
 Thumbs.db
+
 # Headless test screenshots
 viz/_t_*.png

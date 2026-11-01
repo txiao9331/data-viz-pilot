@@ -1,0 +1,2179 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "generatedBy": "scripts/generate-pool-data.mjs",
+    "seed": 20261101,
+    "durationSeconds": 50,
+    "visitorCount": 36,
+    "dataProvenance": "visitor-simulated",
+    "routeProvenance": "route-simulated",
+    "aggregateProvenance": "aggregate-simulated",
+    "note": "All visitors, body parameters, routes and dwell schedules are simulated for concept demonstration; no new human data was collected."
+  },
+  "visitors": [
+    {
+      "id": "V001",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 2.85,
+      "exitTime": 50,
+      "paceScale": 0.999,
+      "scheduleScale": 0.89694,
+      "randomSeed": 1418241588,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 54.5,
+        "spo2": 93.45,
+        "stress": 74.57,
+        "restingHrAmplitude": 0.95,
+        "spo2Amplitude": 0.51,
+        "stressAmplitude": 5.42,
+        "wavePhase": 5.77979
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 5.544,
+          "departure": 7.177,
+          "dwellSeconds": 1.634
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 11.666,
+          "departure": 19.724,
+          "dwellSeconds": 8.057
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 24.213,
+          "departure": 28.193,
+          "dwellSeconds": 3.98
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 36.274,
+          "departure": 37.644,
+          "dwellSeconds": 1.37
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.827,
+          "departure": 45.96,
+          "dwellSeconds": 1.133
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V002",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 5.574,
+      "exitTime": 50,
+      "paceScale": 1.085,
+      "scheduleScale": 0.92494,
+      "randomSeed": 2865317501,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 67.8,
+        "spo2": 92.66,
+        "stress": 56.61,
+        "restingHrAmplitude": 1.94,
+        "spo2Amplitude": 0.23,
+        "stressAmplitude": 3.84,
+        "wavePhase": 5.91089
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 8.131,
+          "departure": 9.925,
+          "dwellSeconds": 1.793
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 14.187,
+          "departure": 19.499,
+          "dwellSeconds": 5.312
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 23.761,
+          "departure": 27.842,
+          "dwellSeconds": 4.081
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 35.514,
+          "departure": 37.896,
+          "dwellSeconds": 2.382
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.716,
+          "departure": 46.164,
+          "dwellSeconds": 1.448
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V003",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 3.31,
+      "exitTime": 48.526,
+      "paceScale": 1.1355,
+      "scheduleScale": 1,
+      "randomSeed": 3351541226,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 53.94,
+        "spo2": 94.77,
+        "stress": 48.92,
+        "restingHrAmplitude": 0.58,
+        "spo2Amplitude": 0.45,
+        "stressAmplitude": 3.92,
+        "wavePhase": 2.43804
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 5.952,
+          "departure": 8.272,
+          "dwellSeconds": 2.32
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 12.675,
+          "departure": 17.657,
+          "dwellSeconds": 4.982
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 22.06,
+          "departure": 25.817,
+          "dwellSeconds": 3.756
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 33.743,
+          "departure": 35.623,
+          "dwellSeconds": 1.88
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 42.668,
+          "departure": 44.563,
+          "dwellSeconds": 1.895
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V004",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 1.803,
+      "exitTime": 49.09,
+      "paceScale": 1.1821,
+      "scheduleScale": 1,
+      "randomSeed": 1609083147,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 56.36,
+        "spo2": 93.27,
+        "stress": 51.72,
+        "restingHrAmplitude": 0.91,
+        "spo2Amplitude": 0.33,
+        "stressAmplitude": 3.42,
+        "wavePhase": 0.9211
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 4.341,
+          "departure": 5.954,
+          "dwellSeconds": 1.613
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 10.184,
+          "departure": 19.066,
+          "dwellSeconds": 8.882
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 23.296,
+          "departure": 27.363,
+          "dwellSeconds": 4.067
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 34.976,
+          "departure": 36.62,
+          "dwellSeconds": 1.643
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 43.387,
+          "departure": 45.283,
+          "dwellSeconds": 1.896
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V005",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 2.631,
+      "exitTime": 49.318,
+      "paceScale": 1.1368,
+      "scheduleScale": 1,
+      "randomSeed": 570361520,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 54.87,
+        "spo2": 95.03,
+        "stress": 60.76,
+        "restingHrAmplitude": 1.26,
+        "spo2Amplitude": 0.53,
+        "stressAmplitude": 1.69,
+        "wavePhase": 4.28059
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 5.27,
+          "departure": 7.316,
+          "dwellSeconds": 2.046
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 11.714,
+          "departure": 17.855,
+          "dwellSeconds": 6.141
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 22.254,
+          "departure": 26.96,
+          "dwellSeconds": 4.706
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 34.877,
+          "departure": 36.77,
+          "dwellSeconds": 1.893
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 43.807,
+          "departure": 45.359,
+          "dwellSeconds": 1.552
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V006",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 2.354,
+      "exitTime": 50,
+      "paceScale": 1.1154,
+      "scheduleScale": 0.97532,
+      "randomSeed": 760852713,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 60.39,
+        "spo2": 92.94,
+        "stress": 51.44,
+        "restingHrAmplitude": 0.67,
+        "spo2Amplitude": 0.3,
+        "stressAmplitude": 2.09,
+        "wavePhase": 1.17585
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 4.977,
+          "departure": 7.428,
+          "dwellSeconds": 2.451
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 11.8,
+          "departure": 19.278,
+          "dwellSeconds": 7.478
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 23.65,
+          "departure": 27.78,
+          "dwellSeconds": 4.13
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 35.65,
+          "departure": 37.114,
+          "dwellSeconds": 1.464
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.109,
+          "departure": 46.065,
+          "dwellSeconds": 1.956
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V007",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 0.32,
+      "exitTime": 50,
+      "paceScale": 0.997,
+      "scheduleScale": 0.92515,
+      "randomSeed": 3167302150,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 65.83,
+        "spo2": 95.2,
+        "stress": 64.44,
+        "restingHrAmplitude": 0.47,
+        "spo2Amplitude": 0.19,
+        "stressAmplitude": 2.72,
+        "wavePhase": 5.27347
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 3.104,
+          "departure": 5.529,
+          "dwellSeconds": 2.425
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 10.169,
+          "departure": 17.461,
+          "dwellSeconds": 7.293
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 22.101,
+          "departure": 26.567,
+          "dwellSeconds": 4.466
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 34.918,
+          "departure": 37.112,
+          "dwellSeconds": 2.194
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.536,
+          "departure": 45.824,
+          "dwellSeconds": 1.288
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V008",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 0.88,
+      "exitTime": 48.055,
+      "paceScale": 1.1374,
+      "scheduleScale": 1,
+      "randomSeed": 3987578263,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 65.8,
+        "spo2": 94.91,
+        "stress": 69.13,
+        "restingHrAmplitude": 1.97,
+        "spo2Amplitude": 0.37,
+        "stressAmplitude": 5.88,
+        "wavePhase": 1.48007
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 3.518,
+          "departure": 6.077,
+          "dwellSeconds": 2.56
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 10.473,
+          "departure": 18.416,
+          "dwellSeconds": 7.943
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 22.812,
+          "departure": 25.712,
+          "dwellSeconds": 2.9
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 33.624,
+          "departure": 35.524,
+          "dwellSeconds": 1.9
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 42.558,
+          "departure": 44.098,
+          "dwellSeconds": 1.54
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V009",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 3.318,
+      "exitTime": 50,
+      "paceScale": 0.8792,
+      "scheduleScale": 0.79101,
+      "randomSeed": 145372524,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 63.09,
+        "spo2": 94.7,
+        "stress": 54.96,
+        "restingHrAmplitude": 0.89,
+        "spo2Amplitude": 0.15,
+        "stressAmplitude": 3.03,
+        "wavePhase": 0.5939
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 6.017,
+          "departure": 8.026,
+          "dwellSeconds": 2.009
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 12.524,
+          "departure": 19.495,
+          "dwellSeconds": 6.97
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 23.993,
+          "departure": 28.047,
+          "dwellSeconds": 4.053
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 36.144,
+          "departure": 37.727,
+          "dwellSeconds": 1.583
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.924,
+          "departure": 45.951,
+          "dwellSeconds": 1.027
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V010",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 5.886,
+      "exitTime": 50,
+      "paceScale": 1.1853,
+      "scheduleScale": 0.97158,
+      "randomSeed": 3959267989,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 53.64,
+        "spo2": 93.27,
+        "stress": 74.53,
+        "restingHrAmplitude": 1.04,
+        "spo2Amplitude": 0.19,
+        "stressAmplitude": 3.54,
+        "wavePhase": 4.69741
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 8.345,
+          "departure": 9.919,
+          "dwellSeconds": 1.574
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 14.017,
+          "departure": 22.56,
+          "dwellSeconds": 8.543
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 26.659,
+          "departure": 29.395,
+          "dwellSeconds": 2.737
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 36.773,
+          "departure": 38.703,
+          "dwellSeconds": 1.931
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 45.261,
+          "departure": 46.311,
+          "dwellSeconds": 1.051
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V011",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 1.074,
+      "exitTime": 50,
+      "paceScale": 0.944,
+      "scheduleScale": 0.92461,
+      "randomSeed": 761860706,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 54.44,
+        "spo2": 95.75,
+        "stress": 55.37,
+        "restingHrAmplitude": 1.14,
+        "spo2Amplitude": 0.46,
+        "stressAmplitude": 3.53,
+        "wavePhase": 3.13166
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 4.012,
+          "departure": 5.538,
+          "dwellSeconds": 1.525
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 10.435,
+          "departure": 16.812,
+          "dwellSeconds": 6.377
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 21.71,
+          "departure": 25.992,
+          "dwellSeconds": 4.282
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 34.807,
+          "departure": 36.239,
+          "dwellSeconds": 1.432
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.075,
+          "departure": 45.592,
+          "dwellSeconds": 1.518
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V012",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 4.954,
+      "exitTime": 50,
+      "paceScale": 1.0997,
+      "scheduleScale": 0.95126,
+      "randomSeed": 1855571811,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 61.12,
+        "spo2": 92.88,
+        "stress": 59.24,
+        "restingHrAmplitude": 2.07,
+        "spo2Amplitude": 0.57,
+        "stressAmplitude": 2.01,
+        "wavePhase": 2.30838
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 7.549,
+          "departure": 9.585,
+          "dwellSeconds": 2.036
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 13.91,
+          "departure": 18.316,
+          "dwellSeconds": 4.406
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 22.641,
+          "departure": 26.872,
+          "dwellSeconds": 4.231
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 34.657,
+          "departure": 37.326,
+          "dwellSeconds": 2.669
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.247,
+          "departure": 46.107,
+          "dwellSeconds": 1.861
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V013",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 0.051,
+      "exitTime": 50,
+      "paceScale": 0.994,
+      "scheduleScale": 0.97144,
+      "randomSeed": 1303834216,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 56.97,
+        "spo2": 95.66,
+        "stress": 73.9,
+        "restingHrAmplitude": 0.66,
+        "spo2Amplitude": 0.47,
+        "stressAmplitude": 3.98,
+        "wavePhase": 5.16634
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 2.983,
+          "departure": 5.588,
+          "dwellSeconds": 2.605
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 10.474,
+          "departure": 15.93,
+          "dwellSeconds": 5.455
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 20.816,
+          "departure": 24.845,
+          "dwellSeconds": 4.029
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 33.641,
+          "departure": 36.083,
+          "dwellSeconds": 2.442
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 43.902,
+          "departure": 45.602,
+          "dwellSeconds": 1.701
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V014",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 1.327,
+      "exitTime": 50,
+      "paceScale": 0.9062,
+      "scheduleScale": 0.88376,
+      "randomSeed": 1352451969,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 55.75,
+        "spo2": 92.89,
+        "stress": 64.76,
+        "restingHrAmplitude": 1.73,
+        "spo2Amplitude": 0.42,
+        "stressAmplitude": 5.11,
+        "wavePhase": 4.97254
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 4.253,
+          "departure": 5.738,
+          "dwellSeconds": 1.485
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 10.614,
+          "departure": 15.545,
+          "dwellSeconds": 4.931
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 20.421,
+          "departure": 25.234,
+          "dwellSeconds": 4.813
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 34.012,
+          "departure": 36.257,
+          "dwellSeconds": 2.245
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.059,
+          "departure": 45.611,
+          "dwellSeconds": 1.553
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V015",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 3.765,
+      "exitTime": 50,
+      "paceScale": 1.1526,
+      "scheduleScale": 0.94154,
+      "randomSeed": 1800565502,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 64.04,
+        "spo2": 95.35,
+        "stress": 64.56,
+        "restingHrAmplitude": 0.74,
+        "spo2Amplitude": 0.12,
+        "stressAmplitude": 2.02,
+        "wavePhase": 1.12751
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 6.216,
+          "departure": 8.743,
+          "dwellSeconds": 2.528
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 12.828,
+          "departure": 20.204,
+          "dwellSeconds": 7.377
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 24.289,
+          "departure": 29.192,
+          "dwellSeconds": 4.903
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 36.544,
+          "departure": 38.052,
+          "dwellSeconds": 1.508
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.587,
+          "departure": 46.324,
+          "dwellSeconds": 1.737
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V016",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 0.608,
+      "exitTime": 48.242,
+      "paceScale": 1.0564,
+      "scheduleScale": 1,
+      "randomSeed": 1809642095,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 58.18,
+        "spo2": 95.94,
+        "stress": 72.98,
+        "restingHrAmplitude": 1.72,
+        "spo2Amplitude": 0.1,
+        "stressAmplitude": 3.02,
+        "wavePhase": 5.58805
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 3.448,
+          "departure": 5.248,
+          "dwellSeconds": 1.8
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 9.981,
+          "departure": 14.633,
+          "dwellSeconds": 4.652
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 19.366,
+          "departure": 24.064,
+          "dwellSeconds": 4.698
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 32.584,
+          "departure": 34.954,
+          "dwellSeconds": 2.371
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 42.527,
+          "departure": 43.982,
+          "dwellSeconds": 1.455
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V017",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 3.967,
+      "exitTime": 50,
+      "paceScale": 1.1331,
+      "scheduleScale": 0.96805,
+      "randomSeed": 3271306660,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 52.23,
+        "spo2": 93.91,
+        "stress": 74.09,
+        "restingHrAmplitude": 0.47,
+        "spo2Amplitude": 0.48,
+        "stressAmplitude": 4.31,
+        "wavePhase": 1.08858
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 6.53,
+          "departure": 9.135,
+          "dwellSeconds": 2.605
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 13.407,
+          "departure": 18.101,
+          "dwellSeconds": 4.694
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 22.373,
+          "departure": 27.927,
+          "dwellSeconds": 5.554
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 35.616,
+          "departure": 37.726,
+          "dwellSeconds": 2.11
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.561,
+          "departure": 46.155,
+          "dwellSeconds": 1.595
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V018",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 0.133,
+      "exitTime": 50,
+      "paceScale": 0.8505,
+      "scheduleScale": 0.87689,
+      "randomSeed": 1475480493,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 55.81,
+        "spo2": 94.18,
+        "stress": 67.91,
+        "restingHrAmplitude": 1.45,
+        "spo2Amplitude": 0.41,
+        "stressAmplitude": 2.22,
+        "wavePhase": 4.15909
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 3.226,
+          "departure": 4.71,
+          "dwellSeconds": 1.484
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 9.865,
+          "departure": 15.767,
+          "dwellSeconds": 5.902
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 20.922,
+          "departure": 23.879,
+          "dwellSeconds": 2.957
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 33.158,
+          "departure": 35.315,
+          "dwellSeconds": 2.157
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 43.563,
+          "departure": 45.36,
+          "dwellSeconds": 1.797
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V019",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 1.645,
+      "exitTime": 47.974,
+      "paceScale": 1.1528,
+      "scheduleScale": 1,
+      "randomSeed": 3352555482,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 55.26,
+        "spo2": 94.17,
+        "stress": 61.71,
+        "restingHrAmplitude": 0.72,
+        "spo2Amplitude": 0.15,
+        "stressAmplitude": 4.97,
+        "wavePhase": 1.78591
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 4.247,
+          "departure": 5.983,
+          "dwellSeconds": 1.736
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 10.321,
+          "departure": 17.331,
+          "dwellSeconds": 7.011
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 21.668,
+          "departure": 25.262,
+          "dwellSeconds": 3.594
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 33.07,
+          "departure": 35.026,
+          "dwellSeconds": 1.957
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 41.966,
+          "departure": 44.071,
+          "dwellSeconds": 2.105
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V020",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 5.634,
+      "exitTime": 50,
+      "paceScale": 0.9638,
+      "scheduleScale": 0.81771,
+      "randomSeed": 340273851,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 54.29,
+        "spo2": 95.41,
+        "stress": 51.91,
+        "restingHrAmplitude": 0.57,
+        "spo2Amplitude": 0.17,
+        "stressAmplitude": 3.96,
+        "wavePhase": 4.22039
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 8.179,
+          "departure": 10.086,
+          "dwellSeconds": 1.907
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 14.329,
+          "departure": 21.448,
+          "dwellSeconds": 7.12
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 25.691,
+          "departure": 28.653,
+          "dwellSeconds": 2.963
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 36.289,
+          "departure": 38.089,
+          "dwellSeconds": 1.799
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.876,
+          "departure": 46.182,
+          "dwellSeconds": 1.306
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V021",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R1",
+      "entryDelay": 5.807,
+      "exitTime": 50,
+      "paceScale": 1.034,
+      "scheduleScale": 0.81972,
+      "randomSeed": 3153538848,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 65.81,
+        "spo2": 94.04,
+        "stress": 71.62,
+        "restingHrAmplitude": 1.63,
+        "spo2Amplitude": 0.5,
+        "stressAmplitude": 5.09,
+        "wavePhase": 6.22581
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 8.185,
+          "departure": 10.284,
+          "dwellSeconds": 2.099
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 14.248,
+          "departure": 21.295,
+          "dwellSeconds": 7.047
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 25.259,
+          "departure": 29.119,
+          "dwellSeconds": 3.861
+        },
+        {
+          "node": "B",
+          "visitIndex": 2,
+          "arrival": 36.254,
+          "departure": 38.545,
+          "dwellSeconds": 2.291
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 44.887,
+          "departure": 46.433,
+          "dwellSeconds": 1.546
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V022",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R2",
+      "entryDelay": 1.532,
+      "exitTime": 43.436,
+      "paceScale": 1.1328,
+      "scheduleScale": 1,
+      "randomSeed": 166751143,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 51.79,
+        "spo2": 95.57,
+        "stress": 62.54,
+        "restingHrAmplitude": 0.46,
+        "spo2Amplitude": 0.25,
+        "stressAmplitude": 1.9,
+        "wavePhase": 3.65989
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 4.18,
+          "departure": 6.791,
+          "dwellSeconds": 2.61
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 11.205,
+          "departure": 18.592,
+          "dwellSeconds": 7.388
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 36.248,
+          "departure": 38.139,
+          "dwellSeconds": 1.891
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V023",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R2",
+      "entryDelay": 0.58,
+      "exitTime": 41.272,
+      "paceScale": 1.1912,
+      "scheduleScale": 1,
+      "randomSeed": 2332541458,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 56.78,
+        "spo2": 92.33,
+        "stress": 58.05,
+        "restingHrAmplitude": 2.03,
+        "spo2Amplitude": 0.43,
+        "stressAmplitude": 3.51,
+        "wavePhase": 3.12322
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 3.098,
+          "departure": 5.402,
+          "dwellSeconds": 2.303
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 9.599,
+          "departure": 17.341,
+          "dwellSeconds": 7.742
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 34.131,
+          "departure": 36.235,
+          "dwellSeconds": 2.104
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V024",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R2",
+      "entryDelay": 4.735,
+      "exitTime": 50,
+      "paceScale": 0.8571,
+      "scheduleScale": 0.89026,
+      "randomSeed": 1839766225,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 52.74,
+        "spo2": 95.99,
+        "stress": 73.19,
+        "restingHrAmplitude": 1.36,
+        "spo2Amplitude": 0.2,
+        "stressAmplitude": 4.65,
+        "wavePhase": 3.0444
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 7.851,
+          "departure": 9.823,
+          "dwellSeconds": 1.972
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 15.016,
+          "departure": 21.322,
+          "dwellSeconds": 6.306
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 42.096,
+          "departure": 43.768,
+          "dwellSeconds": 1.672
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V025",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R2",
+      "entryDelay": 3.491,
+      "exitTime": 47.197,
+      "paceScale": 1.0673,
+      "scheduleScale": 1,
+      "randomSeed": 1598127252,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 56.64,
+        "spo2": 93.54,
+        "stress": 53.41,
+        "restingHrAmplitude": 2.07,
+        "spo2Amplitude": 0.16,
+        "stressAmplitude": 4.55,
+        "wavePhase": 4.27159
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 6.302,
+          "departure": 8.825,
+          "dwellSeconds": 2.523
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 13.51,
+          "departure": 20.227,
+          "dwellSeconds": 6.717
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 38.965,
+          "departure": 41.575,
+          "dwellSeconds": 2.61
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V026",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R2",
+      "entryDelay": 4.712,
+      "exitTime": 50,
+      "paceScale": 0.9314,
+      "scheduleScale": 0.92086,
+      "randomSeed": 477401931,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 59.73,
+        "spo2": 92.33,
+        "stress": 72.05,
+        "restingHrAmplitude": 0.94,
+        "spo2Amplitude": 0.33,
+        "stressAmplitude": 2.16,
+        "wavePhase": 1.99121
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 7.678,
+          "departure": 10.027,
+          "dwellSeconds": 2.349
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 14.97,
+          "departure": 22.44,
+          "dwellSeconds": 7.47
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 42.214,
+          "departure": 44.068,
+          "dwellSeconds": 1.854
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V027",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R2",
+      "entryDelay": 3.622,
+      "exitTime": 50,
+      "paceScale": 0.8633,
+      "scheduleScale": 0.88604,
+      "randomSeed": 3549567782,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 65.38,
+        "spo2": 95.63,
+        "stress": 49.9,
+        "restingHrAmplitude": 1.49,
+        "spo2Amplitude": 0.31,
+        "stressAmplitude": 3.44,
+        "wavePhase": 2.50416
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 6.701,
+          "departure": 8.464,
+          "dwellSeconds": 1.763
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 13.595,
+          "departure": 21.23,
+          "dwellSeconds": 7.635
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 41.757,
+          "departure": 43.842,
+          "dwellSeconds": 2.085
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V028",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R2",
+      "entryDelay": 0.552,
+      "exitTime": 42.143,
+      "paceScale": 1.1314,
+      "scheduleScale": 1,
+      "randomSeed": 3020234645,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 59.56,
+        "spo2": 93.58,
+        "stress": 57.26,
+        "restingHrAmplitude": 1.32,
+        "spo2Amplitude": 0.34,
+        "stressAmplitude": 4.14,
+        "wavePhase": 5.90325
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 3.204,
+          "departure": 5.305,
+          "dwellSeconds": 2.101
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 9.724,
+          "departure": 16.404,
+          "dwellSeconds": 6.68
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 34.081,
+          "departure": 36.84,
+          "dwellSeconds": 2.759
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V029",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R3",
+      "entryDelay": 5.151,
+      "exitTime": 50,
+      "paceScale": 0.9879,
+      "scheduleScale": 0.87807,
+      "randomSeed": 1971925779,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 65.59,
+        "spo2": 92.84,
+        "stress": 70.29,
+        "restingHrAmplitude": 2.18,
+        "spo2Amplitude": 0.39,
+        "stressAmplitude": 3.37,
+        "wavePhase": 2.68863
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 7.817,
+          "departure": 9.259,
+          "dwellSeconds": 1.441
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 17.258,
+          "departure": 21.583,
+          "dwellSeconds": 4.325
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 28.693,
+          "departure": 35.939,
+          "dwellSeconds": 7.245
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 43.049,
+          "departure": 44.667,
+          "dwellSeconds": 1.618
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V030",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R3",
+      "entryDelay": 2.443,
+      "exitTime": 50,
+      "paceScale": 1.1181,
+      "scheduleScale": 0.99842,
+      "randomSeed": 3562313441,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 58.76,
+        "spo2": 92.89,
+        "stress": 54.05,
+        "restingHrAmplitude": 1.45,
+        "spo2Amplitude": 0.13,
+        "stressAmplitude": 2.28,
+        "wavePhase": 2.69134
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 5.122,
+          "departure": 6.571,
+          "dwellSeconds": 1.449
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 14.608,
+          "departure": 19.848,
+          "dwellSeconds": 5.241
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 26.992,
+          "departure": 34.787,
+          "dwellSeconds": 7.795
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 41.931,
+          "departure": 44.642,
+          "dwellSeconds": 2.711
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V031",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R3",
+      "entryDelay": 2.009,
+      "exitTime": 50,
+      "paceScale": 0.998,
+      "scheduleScale": 0.95764,
+      "randomSeed": 1511808639,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 56.85,
+        "spo2": 92.79,
+        "stress": 70.2,
+        "restingHrAmplitude": 1.34,
+        "spo2Amplitude": 0.17,
+        "stressAmplitude": 4.67,
+        "wavePhase": 5.66712
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 4.888,
+          "departure": 6.769,
+          "dwellSeconds": 1.881
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 15.405,
+          "departure": 20.608,
+          "dwellSeconds": 5.203
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 28.285,
+          "departure": 33.889,
+          "dwellSeconds": 5.605
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 41.566,
+          "departure": 44.243,
+          "dwellSeconds": 2.677
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V032",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R3",
+      "entryDelay": 4.969,
+      "exitTime": 50,
+      "paceScale": 1.0264,
+      "scheduleScale": 0.91429,
+      "randomSeed": 2139722093,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 63.36,
+        "spo2": 94.55,
+        "stress": 50.42,
+        "restingHrAmplitude": 1.69,
+        "spo2Amplitude": 0.12,
+        "stressAmplitude": 5.33,
+        "wavePhase": 4.03191
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 7.641,
+          "departure": 9.587,
+          "dwellSeconds": 1.945
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 17.604,
+          "departure": 20.589,
+          "dwellSeconds": 2.985
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 27.715,
+          "departure": 34.915,
+          "dwellSeconds": 7.201
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 42.042,
+          "departure": 44.655,
+          "dwellSeconds": 2.614
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V033",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R3",
+      "entryDelay": 2.729,
+      "exitTime": 50,
+      "paceScale": 0.8602,
+      "scheduleScale": 0.86091,
+      "randomSeed": 2185431851,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 62.13,
+        "spo2": 95.12,
+        "stress": 62.01,
+        "restingHrAmplitude": 1.95,
+        "spo2Amplitude": 0.3,
+        "stressAmplitude": 4.38,
+        "wavePhase": 0.47863
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 5.731,
+          "departure": 7.578,
+          "dwellSeconds": 1.847
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 16.586,
+          "departure": 19.451,
+          "dwellSeconds": 2.865
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 27.457,
+          "departure": 33.664,
+          "dwellSeconds": 6.207
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 41.671,
+          "departure": 43.995,
+          "dwellSeconds": 2.324
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>C",
+        "C>B",
+        "B>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V034",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R4",
+      "entryDelay": 3.774,
+      "exitTime": 50,
+      "paceScale": 1.084,
+      "scheduleScale": 0.99035,
+      "randomSeed": 3006028601,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 66.59,
+        "spo2": 94.77,
+        "stress": 61.47,
+        "restingHrAmplitude": 1.07,
+        "spo2Amplitude": 0.35,
+        "stressAmplitude": 1.99,
+        "wavePhase": 5.61312
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 6.515,
+          "departure": 8.25,
+          "dwellSeconds": 1.735
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 12.818,
+          "departure": 20.662,
+          "dwellSeconds": 7.844
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 27.971,
+          "departure": 31.211,
+          "dwellSeconds": 3.24
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 42.174,
+          "departure": 44.518,
+          "dwellSeconds": 2.344
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V035",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R4",
+      "entryDelay": 3.436,
+      "exitTime": 45.63,
+      "paceScale": 1.1388,
+      "scheduleScale": 1,
+      "randomSeed": 1855038743,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 51.06,
+        "spo2": 95.57,
+        "stress": 57.37,
+        "restingHrAmplitude": 1.59,
+        "spo2Amplitude": 0.16,
+        "stressAmplitude": 3.2,
+        "wavePhase": 2.00224
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 6.07,
+          "departure": 7.971,
+          "dwellSeconds": 1.901
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 12.362,
+          "departure": 17.69,
+          "dwellSeconds": 5.328
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 24.715,
+          "departure": 27.57,
+          "dwellSeconds": 2.855
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 38.107,
+          "departure": 40.361,
+          "dwellSeconds": 2.254
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>D",
+        "D>EXIT"
+      ]
+    },
+    {
+      "id": "V036",
+      "dataProvenance": "visitor-simulated",
+      "routeId": "R4",
+      "entryDelay": 1.089,
+      "exitTime": 50,
+      "paceScale": 1.0785,
+      "scheduleScale": 0.99644,
+      "randomSeed": 456687685,
+      "body": {
+        "dataProvenance": "visitor-simulated",
+        "restingHr": 62.17,
+        "spo2": 95.64,
+        "stress": 56.08,
+        "restingHrAmplitude": 0.72,
+        "spo2Amplitude": 0.32,
+        "stressAmplitude": 2.89,
+        "wavePhase": 1.22641
+      },
+      "visits": [
+        {
+          "node": "A",
+          "visitIndex": 1,
+          "arrival": 3.861,
+          "departure": 6.602,
+          "dwellSeconds": 2.741
+        },
+        {
+          "node": "B",
+          "visitIndex": 1,
+          "arrival": 11.222,
+          "departure": 18.504,
+          "dwellSeconds": 7.282
+        },
+        {
+          "node": "C",
+          "visitIndex": 1,
+          "arrival": 25.895,
+          "departure": 31.661,
+          "dwellSeconds": 5.766
+        },
+        {
+          "node": "D",
+          "visitIndex": 1,
+          "arrival": 42.748,
+          "departure": 44.456,
+          "dwellSeconds": 1.708
+        }
+      ],
+      "traversedEdges": [
+        "START>A",
+        "A>B",
+        "B>C",
+        "C>D",
+        "D>EXIT"
+      ]
+    }
+  ]
+}

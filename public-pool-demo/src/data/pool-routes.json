@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "generatedBy": "scripts/generate-pool-data.mjs",
+    "seed": 20261101,
+    "durationSeconds": 50,
+    "visitorCount": 36,
+    "dataProvenance": "visitor-simulated",
+    "routeProvenance": "route-simulated",
+    "aggregateProvenance": "aggregate-simulated",
+    "note": "All visitors, body parameters, routes and dwell schedules are simulated for concept demonstration; no new human data was collected."
+  },
+  "routes": [
+    {
+      "id": "R1",
+      "label": "主路线",
+      "visitorCount": 21,
+      "steps": [
+        {
+          "node": "A",
+          "travel": 3,
+          "dwell": 2
+        },
+        {
+          "node": "B",
+          "travel": 5,
+          "dwell": 6
+        },
+        {
+          "node": "C",
+          "travel": 5,
+          "dwell": 4
+        },
+        {
+          "node": "B",
+          "travel": 9,
+          "dwell": 2
+        },
+        {
+          "node": "D",
+          "travel": 8,
+          "dwell": 1.5
+        },
+        {
+          "node": "EXIT",
+          "travel": 4.5,
+          "dwell": 0
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "label": "缩短路线",
+      "visitorCount": 7,
+      "steps": [
+        {
+          "node": "A",
+          "travel": 3,
+          "dwell": 2
+        },
+        {
+          "node": "B",
+          "travel": 5,
+          "dwell": 6
+        },
+        {
+          "node": "D",
+          "travel": 20,
+          "dwell": 2
+        },
+        {
+          "node": "EXIT",
+          "travel": 6,
+          "dwell": 0
+        }
+      ]
+    },
+    {
+      "id": "R3",
+      "label": "顺序偏离",
+      "visitorCount": 5,
+      "steps": [
+        {
+          "node": "A",
+          "travel": 3,
+          "dwell": 2
+        },
+        {
+          "node": "C",
+          "travel": 9,
+          "dwell": 4
+        },
+        {
+          "node": "B",
+          "travel": 8,
+          "dwell": 6
+        },
+        {
+          "node": "D",
+          "travel": 8,
+          "dwell": 2
+        },
+        {
+          "node": "EXIT",
+          "travel": 6,
+          "dwell": 0
+        }
+      ]
+    },
+    {
+      "id": "R4",
+      "label": "不返回 B",
+      "visitorCount": 3,
+      "steps": [
+        {
+          "node": "A",
+          "travel": 3,
+          "dwell": 2
+        },
+        {
+          "node": "B",
+          "travel": 5,
+          "dwell": 6
+        },
+        {
+          "node": "C",
+          "travel": 8,
+          "dwell": 4
+        },
+        {
+          "node": "D",
+          "travel": 12,
+          "dwell": 2
+        },
+        {
+          "node": "EXIT",
+          "travel": 6,
+          "dwell": 0
+        }
+      ]
+    }
+  ]
+}
