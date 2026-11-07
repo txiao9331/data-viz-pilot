@@ -58,3 +58,10 @@ Thumbs.db
 
 # Headless test screenshots
 viz/_t_*.png
+
+# Agent/runtime scratch
+.tmp/
+
+# Presentation assets and caption drafts — local until final selection
+# Includes portfolio-concept/demo-video/. Restore only approved final files.
+portfolio-concept/

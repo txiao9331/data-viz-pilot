@@ -109,13 +109,18 @@ export const review = {
       evidence: 'All four scenes, HUDs, playback controls, route states, scene objects and material names were inspected in English. Personal Replay at 23 seconds retained 783 active particles, 782 emission points, 13,783 flow segments and 14,285 memory segments. Public Pool first-person view at 34 seconds retained 36 visitors, 6,951 active records, 47,141 flow segments and 102,912 memory segments. Artwork Node B displayed the English material cards Artwork Body · White Satin, Spatial Signs · Non-emissive White, Artwork & Exit · Warm White Matte, Simulated Gallery Route · White Guide and Exhibit Plinths · Warm White Stone. Portfolio utility scripts were reorganized and all three passed Python syntax validation.',
     },
     {
+      name: '公共池自我高亮、移除与恢复',
+      status: 'passed',
+      evidence: 'V001 在运行时绑定个人 sampleRoute 与 sampleBodyData，其余 35 人保留模拟数据，不新增第 37 人。M 按钮和键盘 M 均按 Highlight Me → Remove Me → Restore Me 循环；高亮时其他观众压暗，自我核心、发散粒子、流动线迹和历史记忆统一偏移为暖橙色，不使用圆环或其他定位图形，以完整个人轨迹而非单个核心表达“我”。23 秒默认状态为 36 人、R1／R2／R3／R4 = 21／7／5／3、5402 个活跃记录、5402 个发散点、47453 段流动线与 65160 段记忆线；高亮不改变数量，移除后为 35 人、R1 = 20、5235 个活跃记录，即完整移除 167 条自我记录及其四层视觉，恢复后全部精确还原。已实际查看高亮与移除画面，验证播放、暂停、seek、restart 保留状态，移除后 V 不进入我的第一人称；23 → 4 → 23 数量精确还原。最终无圆环版本已再次实际查看，pool_self_halo 对象与材质均不存在，10 个网格材质全部具有非空用途名称。',
+    },
+    {
       name: '编译与独立构建',
       status: 'passed',
       evidence: '个人固定单点、36 人四路线公共池、第一人称与白色暗场最终代码的 npm run check 和 npm run build 均通过。旧版 day-one-replay.webm 未作为当前版本的视频证据。',
     },
   ],
   limitations: [
-    '个人真实输入是日汇总；50 秒内的连续身体参数、空间路线、停留、绕行与返回均为模拟。公共池已可视化全部 36 位模拟观众；逐秒真实身体数据、移除我与正式问卷尚未实现。',
-    '公共池已有俯视、入口固定低位与“我”的第一视角；个人—公共池自动对照和移除我仍留到后续阶段。离屏验收不覆盖桌面原生工具栏、宿主快捷键或跨进程焦点行为；本轮未重新导出视频。',
+    '个人真实输入是日汇总；50 秒内的连续身体参数、空间路线、停留、绕行与返回均为模拟。公共池运行时为 35 位模拟观众＋我的日汇总重演，V001 的个人路线与停留同样是模拟；逐秒真实身体数据与正式问卷尚未实现。',
+    '公共池已有俯视、入口固定低位、“我”的第一视角，以及自我高亮、移除与恢复；个人—公共池自动并排对照仍留到后续阶段。离屏验收不覆盖桌面原生工具栏、宿主快捷键或跨进程焦点行为；本轮未重新导出视频。',
   ],
 }

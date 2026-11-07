@@ -101,6 +101,14 @@ function sampleConnector(connector, time, out) {
 
 export function sampleVisitorRoute(visitor, time, out = {}) {
   const clamped = THREE.MathUtils.clamp(time, 0, REPLAY_DURATION)
+  if (visitor.isSelf) {
+    // The self layer is the exact personal-replay route used by the first-person camera.
+    sampleRoute(clamped, out)
+    out.elapsed = clamped
+    out.progress = clamped / REPLAY_DURATION
+    out.standardTime = clamped
+    return out
+  }
   let standardTime = 0
   let segmentIndex = 0
   if (clamped >= visitor.exitTime) {
