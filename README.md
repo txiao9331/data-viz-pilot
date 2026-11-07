@@ -103,27 +103,27 @@ data-viz-pilot/
 └── data/                             # full-archive daily CSV — gitignored
 ```
 
-## Portfolio video and editing files
+## Inside the 3D pilot
 
-The current portfolio title is **Invited Imbrication**. The video production files live in `portfolio-concept/demo-video/`:
+Built with Three.js and Edit3D, **Invited Imbrication** translates the original screen-based visualisation into a simulated gallery. A dark, minimal architectural setting, white works and localised spotlights keep attention on the luminous body–space traces. The demo is a research proposition: it tests how abstraction, spatial replay and collective comparison might make unnoticed behavioural adjustment and self-discipline perceptible.
 
-| Path | Purpose |
-|---|---|
-| `../Public Pool demo video.mp4` | Current locally edited video with music, kept beside the application deck |
-| `public-pool-demo-full.mp4` | Captioned reference cut, 03:25, 1920 × 1080, 25 fps |
-| `full-preview.jpg` | Six-part visual overview |
-| `01-opening/` … `06-future-workflow/` | Independent captioned segments, clean masters, captions and validation |
-| `premiere-editable/` | Six clean MP4 files, matching SRT files, complete clean video and timing data |
-| `after-effects/` | Editable AE projects plus the JSX caption-project builder |
-| `scripts/` | Recording, rendering, verification and export utilities |
-| `production-plan.md` | Six-part structure and motion specifications |
+### Personal replay — body data as a spatial trace
 
-Editing guides:
+![Personal replay in the simulated gallery](public-pool-demo/docs/screenshots/personal-replay.png)
 
-- **After Effects:** `portfolio-concept/demo-video/after-effects/README.md`. Run `build-public-pool.jsx` through **File → Scripts → Run Script File…** to import the clean video and generate 36 timed, editable caption layers. Keep `caption-styles.jsx` beside the script.
-- **Premiere Pro:** `portfolio-concept/demo-video/premiere-editable/README.md`. Use either the complete clean video with the complete SRT, or the six segment pairs for granular editing.
+Thirty days of existing daily summaries are interpolated into a continuous replay. Resting heart rate, SpO2 and stress modulate the particle emission, colour and flow around a single moving core, while the gallery route and dwell schedule are simulated. The result is not a literal reconstruction of measured movement, but a way to examine how body data could be experienced as duration, rhythm and spatial presence.
 
-Large MP4, WebM and MP3 exports, recording caches and AE autosaves are **gitignored**. They remain available locally but are not expected in a fresh clone. Keep the current AE project, video and audio at their existing paths to avoid relinking media. Scripts, SRT files, caption JSON, previews and documentation remain trackable.
+### Public pool — collective routes, repetition and deviation
+
+![Overhead view of the 36-visitor public pool](public-pool-demo/docs/screenshots/public-pool-overhead.png)
+
+The public pool brings together **35 simulated visitors and my replay** across four route variants. The overhead view exposes majority paths, dwell hotspots and departures from shared patterns. The **Highlight Me → Remove Me → Restore Me** interaction tests how an individual trajectory becomes visible, disappears or remains implicitly present within a collective dataset.
+
+### First-person view — inside the data tide
+
+![First-person view inside the public pool](public-pool-demo/docs/screenshots/public-pool-first-person.png)
+
+The first-person camera places the viewer with their own moving core inside the collective particle flow. Where the overhead camera supports comparison and analysis, this view prioritises immersion: the public pool is encountered as a surrounding field of other bodies and trajectories rather than only as an external map.
 
 ## Data format and simulation boundary
 
