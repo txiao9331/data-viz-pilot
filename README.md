@@ -87,8 +87,6 @@ data-viz-pilot/
 │   └── data/                         # local editor state — gitignored
 ├── portfolio-concept/                # application narrative and presentation assets
 │   ├── Public Pool_ Particle Replay of Body–Space Trajectories.pptx
-│   ├── public-pool-concept.pptx      # earlier Chinese deck
-│   ├── 演示视频文字卡定稿_2026-11-07.md # current Invited Imbrication caption draft
 │   ├── demo-development-workflow.md
 │   ├── demo-video/                   # video masters, editing projects and production scripts
 │   ├── screenshots/                  # development evidence and selected final views
